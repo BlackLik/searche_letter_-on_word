@@ -4,7 +4,8 @@ import math
 a = []
 b = []
 j = 0
-for i in "lorem":
+word = input()
+for i in word:
     a.append(i)
     b.append(j)
     j += 1
@@ -17,7 +18,7 @@ maxi = len(a)
 mini = 0
 mid = math.floor((maxi+mini)/2)
 k = 0
-num = "m"
+num = input()
 while True:
     if maxi == mini or (mini + 1 == maxi and a[mid] < num):
         mid = 0
