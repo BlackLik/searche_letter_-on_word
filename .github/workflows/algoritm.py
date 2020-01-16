@@ -1,7 +1,6 @@
 import math
 
 
-
 a = []
 b = []
 j = 0
